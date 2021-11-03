@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.trosoftware.Webservicejava.entities.Category;
-import com.trosoftware.Webservicejava.entities.User;
 import com.trosoftware.Webservicejava.repositories.CategoryRepository;
 
 @Service
