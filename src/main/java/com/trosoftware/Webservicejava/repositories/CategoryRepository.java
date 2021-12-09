@@ -2,10 +2,10 @@ package com.trosoftware.Webservicejava.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.trosoftware.Webservicejava.entities.Product;
+import com.trosoftware.Webservicejava.entities.Category;
 
 
-public interface CategoryRepository extends JpaRepository<Product, Long> {
+public interface CategoryRepository extends JpaRepository<Category, Long> {
 	 
 }
 

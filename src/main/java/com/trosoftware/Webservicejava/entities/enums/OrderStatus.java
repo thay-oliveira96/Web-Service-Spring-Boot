@@ -2,7 +2,7 @@ package com.trosoftware.Webservicejava.entities.enums;
 
 public enum OrderStatus {
 
-	WAITING_PAYMENT(10),
+	WAITING_PAYMENT(1),
 	PAID(2),
 	SHIPPED(3),
 	DELIVERED(4),

@@ -13,6 +13,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.trosoftware.Webservicejava.entities.enums.OrderStatus;
 
 @Entity
@@ -29,7 +30,8 @@ public class Order implements Serializable {
 	private Instant moment;
 	
 	private Integer orderStatus;
-
+	
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "client_id")
 	private User client;
